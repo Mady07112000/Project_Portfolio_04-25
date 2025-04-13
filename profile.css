@@ -1,0 +1,311 @@
+ /*Font Import*/
+
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  /*Font Import*/
+
+  /*Navigation Bar*/
+
+  *{
+    margin: 0;
+    background-color: white;
+    color: black;
+    scroll-behavior: smooth;
+  }
+
+  .Container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+  }
+
+.nav-bar{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 25px;
+}
+a:hover{
+    color: slategrey;
+}
+
+.Madhu{
+    font-size: 35px;
+}
+/*Navigation Bar*/
+
+
+/*Home Section*/
+
+#Home{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+.my-image{
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    margin-right: 0;
+    padding-right: 0;
+    
+}
+
+.my-intro{
+    margin-left:20px;
+    padding-left: 10px;
+    font-size: 40px;
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+    margin-top: 5px;
+}
+    
+
+.description{
+    display: flex;
+    align-items: center;
+    margin: 15px;
+    margin-left:0;
+    gap: 15px;
+}
+
+.btn{
+    width: 200px;
+    height: 50px;
+    padding: 5px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border-radius: 50px;
+}
+
+.btn:hover{
+    background-color: slategrey;
+    cursor: pointer;
+}
+
+/*Home Section*/
+
+
+/*About Section*/
+
+.about-header{
+    margin-top: 100px;
+    margin-left: 100px;
+    font-size:100px ;
+}
+
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about-image{
+    margin: 100px;
+    margin-left: 100px;
+    margin-right: 0px;
+    width: 400px;
+    height:400px;
+    border-radius: 20px;
+}
+
+.about-description{
+    margin-left: 0px;
+    padding: 15px;
+    font-size: 25px;
+}
+
+.inline-link{
+    color:red;
+}
+
+/*About Section*/
+
+
+/*Portfolio Section*/
+
+.portfolio-header{
+    margin-top: 100px;
+    margin-left: 100px;
+    font-size:100px ;
+}
+
+.portfolio-container{
+    display: inline-block;
+}
+
+.port-img-1 {
+    width: 400px;
+    height:550px;
+    border-radius:25px;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.port-img-2 {
+    width: 400px;
+    height:350px;
+    border-radius:25px;
+    margin-top: 100px;
+}
+
+.port-img-3 {
+    width: 500px;
+    height:500px;
+    border-radius:25px;
+    margin-right: 100px;
+    margin-top: 100px;
+}
+
+
+
+.port-img-4 {
+    width: 400px;
+    height:650px;
+    border-radius:25px;
+    margin-left: 100px;
+    margin-top: 100px;
+    margin-right: 25px;
+}
+
+.port-img-5 {
+    width: 400px;
+    height:550px;
+    border-radius:25px;
+    margin-right: 100px;
+    margin-top: 100px;
+    margin-left: 25px;
+}
+
+#wild:hover{
+    transform:scale(1.25);
+    cursor: pointer;
+}
+
+.line-1{
+    gap: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.line-2{
+    gap: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*Portfolio Section*/
+
+/*Skills Section*/
+
+.HTML:hover{
+    transform: translateY(-50px) ;
+    cursor: pointer;
+}
+
+.CSS:hover{
+    transform: translateY(-50px);
+    cursor: pointer;
+}
+.JS:hover{
+    transform: translateY(-50px);
+    cursor: pointer;
+}
+.Tailwind:hover{
+    transform: translateY(-50px);
+    cursor: pointer;
+}
+
+.Skills-header{
+    margin-top: 100px;
+    margin-left: 100px;
+    font-size:100px ;
+}
+
+.Skills-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+    width: 100vw;
+    height: 500px;
+}
+
+#skill-progress-bar{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    border:solid 2px black;
+    border-radius:25px ;
+    box-shadow:10px 5px 5px rgb(176, 144, 144) ;
+    width: 250px;
+    height: 250px;
+    margin: 0%;
+    padding: 0%;
+}
+
+#skill-text{
+    font-size: 20px;
+    margin: 0%;
+    padding: 0%;
+}
+
+#progress-bar{
+    height: 25px;
+    background-color: red;
+    border-radius: 20px;
+    align-self: flex-start;
+    margin-left: 10px;
+}
+
+.HTML-progress-bar{
+    width: 200px;
+}
+
+.CSS-progress-bar{
+    width: 160px;
+}
+
+.JS-progress-bar{
+    width: 100px;
+}
+
+.Tailwind-progress-bar{
+    width: 160px;
+}
+/*Skills Section*/
+
+/*Footer Section*/
+
+footer{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+/*Footer Section*/
