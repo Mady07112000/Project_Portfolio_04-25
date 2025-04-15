@@ -2,7 +2,7 @@
 <html>
   <head>
     <title>Hello, World!</title>
-    <link rel="stylesheet" href="profile.css" />
+    <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poppins:wght@400;500&display=swap" rel="stylesheet">
@@ -19,7 +19,7 @@
             <div><a href="#Portfolio">Portfolio</a></div>
             <div><a href="#Skills">Skills</a></div>
             <div><a href="#Contact">Contact</a></div>
-            <div><a href="#XYZ">Contact</a></div>
+            <div id="btn-darkmode"><button class="btn-darkmode">Dark mode</button></div>
 
           </nav>
         </div>
@@ -35,7 +35,7 @@
             <div class="description">
                 <a href="https://www.linkedin.com/in/madhu-mahesh-6a63b8214/" target="_blank"><img class="logo" src="./logo-li.png" alt="linkedin"></a>
             <a href="https://github.com/Mady07112000" target="_blank"><img class="logo" src="./logo-git.png" alt="linkedin"></a>
-            <button class="btn" onclick="window.open('./CV24.pdf')">Download CV</button>
+            <button class="btn-download" onclick="window.open('./CV24.pdf')">Download CV</button>
             </div>
         </div>
       </section>
@@ -109,11 +109,41 @@
       </section>
       <!--Skills Section-->
 
-      <footer>
-        <div><a href="#Home">Home</a></li>
-        <div><a href="https://www.linkedin.com/in/madhu-mahesh-6a63b8214/" target="_blank"><img class="logo" src="./logo-li.png" alt="linkedin"></a></div>
-        <div><a href="https://github.com/Mady07112000" target="_blank"><img class="logo" src="./logo-git.png" alt="linkedin"></a></div>
-      </footer>
 
+      <!--Contact Section-->
+      <section id="Contact">
+        <p class="Contact-header">Contact</p>
+        <div id="Contact-form-container">
+          <form action="#">
+            <div class="contact-container">
+              <div class="form-header">Drop in your Contact Details here</div>
+              <div class="contact-name">
+                <input id="c-name" type="text" name="" placeholder="Enter your Name">
+              </div>
+              <div class="contact-number">
+                <input id="c-number" type="tel" placeholder="Enter your Phone Number">
+              </div>
+              <div class="contact-submit">
+                <button type="submit" id="submit-button">Request Callback</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </section>
+
+
+      <!--Contact Section-->
+      <hr>
+
+      <!--Footer-->
+      <footer>
+        <div class="footer-note">For more details visit the links below</div>
+        <div class="footer-container">
+          <div><a href="#Home">Home</a></div>
+          <div><a href="https://www.linkedin.com/in/madhu-mahesh-6a63b8214/" target="_blank"><img class="logo" src="./logo-li.png" alt="linkedin"></a></div>
+          <div><a href="https://github.com/Mady07112000" target="_blank"><img class="logo" src="./logo-git.png" alt="linkedin"></a></div>  
+        </div>
+      </footer>
+      <!--Footer-->
     </body>
 </html>
